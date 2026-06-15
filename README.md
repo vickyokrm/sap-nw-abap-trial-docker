@@ -77,7 +77,7 @@ The Dockerfile is based on:
         - `mkdir sapdownloads`
     - extract the downloaded rar files into the folder we just created (just extract the first rar file), i.e. assuming you have unrar installed (else use your tool of choice)
         - `unrar x TD752SP01.part01.rar ./sapdownloads`
-    - (optional) If Sybase installation will fail due to License - you will need to get the newer Sybase "Part License" from the downloads site, extract (unrar) it, rename it to "SYBASE_ASE_TD.lic", and put it in the subdirectory of the   unrarred archives at ./server/TAR/x86_64/ ... also you should delete any out of date .lic files, so as not to confuse Sybase.
+    - (optional) if Sybase installation will fail due to invalid license - you will need to get the newer Sybase "Part License" from the downloads site, extract (unrar) it, rename it to "SYBASE_ASE_TD.lic", and put it in the subdirectory of the   unrarred archives at ./server/TAR/x86_64/ ... also you should delete any out of date .lic files, so as not to confuse Sybase.
   
       
     **Hint:** SAP wants to know who downloads the NW ABAP Trial version. Thus, you will have to logon with your own account before you can start the download. Creating an account is free, so is the download. The account can be the same account you use for the SAP Communitiy / SCN.

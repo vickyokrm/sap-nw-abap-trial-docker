@@ -239,3 +239,10 @@ This folder contains important log files for us, i.e. `dev_icm` and `dev_w0`:
   ```
 
 Check their content (i.e. with vi) in case you're facing issues with your NW ABAP which you can't explain. For example, in case your NW ABAP has started successfully, but you cannot access the ping service via HTTP/HTTPS, you might find an issue in one of these files.
+
+
+
+
+##Troubleshooting
+When trying to install the SAP system with ASE database on Ubuntu 21.04 (or e.g. on Leap 15.4) the installation run hangs. This can be solved be adding the following parameter in Mid-air. Refer this [blog](https://community.sap.com/t5/technology-blog-posts-by-members/adjusting-installer-script-for-sap-netweaver-dev-edition-for-distros-with/ba-p/13492318)
+sed -i 's/NPL.cfg \\/NPL.cfg -T11889 \\/g' /sybase/NPL/ASE-16_0/install/RUN_NPL

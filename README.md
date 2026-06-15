@@ -250,5 +250,12 @@ Refer this [blog](https://community.sap.com/t5/technology-blog-posts-by-members/
   ```sh
   sed -i 's/NPL.cfg \\/NPL.cfg -T11889 \\/g' /sybase/NPL/ASE-16_0/install/RUN_NPL
   ```
-1. Try run the whole installation with `sudo` if the install fails
+1. Try run the whole installation with `sudo` if the install fails with:
   - checkSybaseUser was executed with status ERROR
+  - Caught ESAPinstException in module call: Validator of step
+  - sap netweaver no new licenses were copied
+  - step syb_step_reset_db_passwords of component 
+
+## Helpful blogs
+- https://community.sap.com/t5/application-development-and-automation-discussions/abap-trial-installation-problem-sapsystemname-error/m-p/12530962/highlight/true#M2005451
+- https://community.sap.com/t5/technology-blog-posts-by-members/concise-guide-to-install-sap-netweaver-developer-edition-on-ubuntu-vm/ba-p/13411332

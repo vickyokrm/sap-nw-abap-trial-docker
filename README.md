@@ -259,3 +259,4 @@ Refer this [blog](https://community.sap.com/t5/technology-blog-posts-by-members/
 ## Helpful blogs
 - https://community.sap.com/t5/application-development-and-automation-discussions/abap-trial-installation-problem-sapsystemname-error/m-p/12530962/highlight/true#M2005451
 - https://community.sap.com/t5/technology-blog-posts-by-members/concise-guide-to-install-sap-netweaver-developer-edition-on-ubuntu-vm/ba-p/13411332
+- https://blogs.sap.com/2021/06/07/adjusting-installer-script-for-sap-netweaver-dev-edition-for-distros-with-kernel-version-5.4-or-higher/
